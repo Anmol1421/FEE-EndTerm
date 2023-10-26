@@ -1,0 +1,163 @@
+table {
+    margin: 30px auto;
+    margin-bottom: 120px;
+    width: 85%;
+}
+
+
+/* right side queue section styling part */
+
+.card {
+    width: 300px;
+    display: flex;
+    margin: 20px 0;
+    font-size: small;
+}
+
+.card img {
+    margin: 0 10px;
+    width: 50px;
+}
+
+.song-info {
+    width: 100%;
+    margin-left: 10px;
+}
+
+.song-info .artistNameRight {
+    margin-top: 5px;
+    color: gray;
+    font-weight: bold;
+}
+
+.card a p {
+    font-size: small;
+}
+
+
+/* left side latest release section music card */
+
+.latestCardDiv {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-size: normal;
+}
+
+.latestCard {
+    width: 75%;
+    margin: 10px 0;
+    display: flex;
+}
+
+.rlsDate,
+.duration {
+    color: #7e7f86;
+}
+
+.latestCard img {
+    width: 70px;
+    margin: 0 15px;
+}
+
+
+/* popular artist section */
+
+.popArtistDiv {
+    margin-top: 20px;
+    display: flex;
+    font-size: small;
+    text-align: center;
+}
+
+.popArtist {
+    margin: 0 10px;
+}
+
+.popArtist img {
+    border-radius: 50%;
+    margin-bottom: 5px;
+    width: 100px;
+    height: 100px;
+}
+
+
+/* stations section */
+
+.mainStations {
+    width: 90%;
+    padding: 10px;
+    display: flex;
+    margin: 30px 0;
+    margin-right: 15px;
+    border-radius: 10px;
+    background-color: #101642;
+}
+
+.mainStations img {
+    height: 100px;
+}
+
+.stations {
+    margin-left: 40px;
+}
+
+.stations img {
+    width: 80px;
+    height: 75px;
+    margin: 8px 5px;
+    border-radius: 50%;
+}
+
+
+/* ocassion party road trip elctronic */
+
+.ocassion {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.ocassion img {
+    width: 250px;
+    margin: 15px 15px 15px 0;
+}
+
+
+/* latest songs hindi/english */
+
+.latestSong {
+    display: flex;
+    font-size: small;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+.latestSongCard {
+    color: #e9e9eb;
+    margin-right: 15px;
+}
+
+.latestSong img {
+    width: 120px;
+}
+
+@media only screen and (max-width: 700px) {
+    .latestCardDiv {
+        display: block;
+        width: 400px;
+    }
+    .popArtistDiv {
+        width: 50%;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .ocassion {
+        display: grid;
+        justify-content: center;
+    }
+    .latestSong {
+        width: 50%;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}

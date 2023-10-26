@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="first"></h1>
+    <button onclick="showMe()" id="second">Click Me</button>
+    <h1 onclick='this.innerHTML="Hii"' id="second">Click Me again</h1>
+    <div onmousemove="mOver()" style="height: 200px ; width: 300px ; background: red;">
+        <h1 onmousemove="mOver(this)">Hover on Me</h1> 
+    </div>
+    <script>
+    document.getElementById("first").innerHTML="hello world"
+
+    function showMe(){
+        document.getElementById("second").innerHTML="I am Clicked"
+    }
+    function mOver(thisEle){
+        thisEle.innerHTML="i am Changed"
+    }
+
+    docuent.getelementById("btnl").addEventListener("click",
+    function newText(){
+        document.getElementByld("p").innerHtml = "You Have Clicked Me";
+    })
+    </script>
+</body>
+</html>

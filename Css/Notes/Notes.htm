@@ -1,0 +1,248 @@
+CSS:- Cascading Style Sheet 
+
+Css is designed language to simplyfy the process of making web pages presentable.
+it allows to apply styles to web pages css is independent of html that makes a each web pages .
+it provides powerful control over the presentation of html doc. it can control layout of multiple web pages or
+external styles sheet are stored in css files
+
+Eg- P    (selector)
+{
+    color-blue,
+    text align:center,   (declaration)
+}
+
+Uses of CSS:- 
+1. Design of webpages including design layout and variation in display for different devices and screen sizes.
+2. To develop large website various fonts and color information where add at to every single page become a long
+   and  expansive project that to solve this problem w3c created css.
+3. CSS saves time   
+4. Easy maintenance
+5.Search Engine
+6.Offile Browsing , CSS can store web application with help of offline cache
+
+CSS Syntrax:-
+
+CSS consist of 2 blocks - Selector and Declaration
+Eg. h1{
+    color :blue;text align:center;
+    }
+
+Selcetor points to the html element u want to style.
+Each Declaration includes property name and value seperated by colons.
+Multiple declaration seperated by semi colons and declaration block are surrounded by curly braces
+Supported browser :- Crome, Firefox,Opera, Edge etc.
+
+CSS Selectors:
+Finds html elements based on their element name ,id ,class, attribute
+Univeral Selectors:- {
+    color:black,
+}
+
+Element Selector:
+Selects element based on element name
+Desendant selector:- To apply style rule a particular element it lies inside a element .
+UL em{
+    coloe:black,
+}
+
+Id selector:
+ ID od=f an element should be unique with in  . To select an elemnt to a specific id.
+#para 1{
+    text align:center,
+    color:red,
+}
+
+Class selectors:
+Selects element with specific attribute their.
+.Center{
+      text align:center,
+    color:red,
+}
+Groping Selectors:
+h1{
+    color :blue;
+    text align:center;
+    }
+h2{
+    color :blue;
+    text align:center;
+    }
+If element have same style defination than we will go group selectors to minimize the code
+h1,h2,P{
+     color :blue;
+    text align : center ;
+}
+
+Adding Styles in CSS-
+
+1. Inline-It is used to apply a uniqe style for an single element to use inline css style, add th esingle attribute
+          to the relevent element.
+
+2. Internal-Interanl css is used in single html page has a unique style. it defines within th estlye tag 
+            element inside the head section of html page.
+
+3. External-By using link element to an exteranl file using an external style sheet one can
+            change the look of entire website by changing one file each html page include refrence link
+            to external style sheet.
+
+Prefernce of rules:-
+1. Inline (inside html element)
+2. External and internal style(inside head)
+3. Default browser       
+
+Adding Color-
+Color are specified using predefine color name 
+
+1.Text color:
+h1 style="Color:Tomato";
+
+2. Border Color:
+ h1 style="border:2px solid Orange;> H1</h1>
+
+3. CSS Color value :-
+Insted of color give color value
+<h1  style="background-image: linear-gradient(to right, red , yellow);">
+
+Border sets all the border properties in one declaration property
+4. Border bottom-
+   border-bottom:25px dotted red,"
+
+5. Border style:
+
+
+CSS List Properties:-
+All the properties for a list in one declaration  
+List-style: Square inside url("image.gif");
+
+List-Style Image: Specify an image list item markers
+
+List-style Position: Specify Position of the List item Markers
+
+List-Style Type:  
+css file design for unvisited link:
+ a:hover
+ 
+ a link the moment it is clicked 
+
+
+ display properties:display specifies how an element should be displayed 
+ dispaly:block or display:inline 
+
+padding :it is the space between the text and border 
+
+p{
+    padding:35px;a
+
+}
+
+padding-bottom:
+sets the bottom padding of the element 
+
+padding- left
+padding right 
+padding top 
+padding bottom
+
+
+css diamond shape properties:
+height:sets the height of an element
+
+max - height:specifies the maximum height of the element max-height:200px
+                                                           min -height:50px
+max- width
+
+css positioning properties:
+botttom:sets the bottom margin edge for the position box
+div a{
+       position:absolute
+       bottom:50px
+       width:50%
+       border:3px solid black;  
+}
+ left 
+ right 
+  top in place of bottom
+
+  clip:
+
+  float:
+
+  obverflow:
+  overflow:scroll
+  overflow auto:it automatically click the scroll bar to see the message
+  overflow visible
+  overflow-x
+  overflow axis for left and right
+  stack order of an element :
+
+
+
+css box model:
+
+content
+
+Gradient-
+Dispaly smooth transition between 2 specific colors
+
+3 types of Gradient-
+
+1.LinearGradient-
+    #grad{
+        background-image:linear-gradient(to right, red,yellow);
+    }
+2.RadialGradient-
+    #grad{
+        background-image:radial-gradient(circle,red,yellow,green);
+    }
+3.ConicGradient-
+    #grad{
+        background-image:conic-gradient(red,yellow);
+    }
+
+Pseudo Classes- Defines special state of an elelment.
+                style and element when user mouses overheate.
+                style visited and         differently.
+                Syntrax-
+                Selector:pseudo-class{
+                    Property:Value,
+                }
+
+Pseudo Element- Styles first line of element.
+                Syntrax-
+                Selector::pseudo-element{
+                    property:Value;
+                }
+                Add expression style to first line of text
+                 eg-p::first-line{
+                     color:#ff0000,
+                     font-variant:small-caps,
+                    }
+
+First letter pseudo-element- eg-p::first-letter{
+                              color:#ff0000,
+                             font-variant:small-caps,
+                             }           
+                            
+Before the pseudo-element- Insert some content before content of an element    
+    h1::before-content {
+    content:url(image jpg);
+    }   
+
+After the pseudo-element- Insert some content after content of an element
+    h1::after-content {
+    content:url(image jpg);
+    }   
+
+Markers- Select markers of some 
+    ::markers{
+        color:red,
+        font-size:20px,
+    }   
+    
+Selection pseudo-class-
+    ::selection{
+        color:black;
+        background,yellow;
+    }    
+                
+

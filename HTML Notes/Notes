@@ -1,0 +1,74 @@
+Used to collect the info. from the user and go to the server. User input is sent to server for processing.
+<forms>
+<label for="frame">first name:</label><br>
+<input type="text" id="fname" name ="fname"><br>
+<label for ="lname">last name:</label><br>
+<input type="text" id="lname" name ="lname"><br>
+</forms>
+input type text defines a single line input field for text input 
+input types-: 
+<input type="text"> to receive single line text
+<input type="radio"> to select on option
+<input type="checkbox"> to select more than one choice
+<input type="submit"> to submit the form
+<input type="button"> to display dictable button
+
+Form elements-:
+<label> 
+eg-: <label for .fname>first name:</label>
+first name
+
+->In the label the user input the elements.
+->Radio buttons-: <input type="radio">
+  It allows user to select one choice from limited number of choices.
+<p> choose your favourite foos</p>
+<form>
+<input type="radio" id="idl" name="fav food" value="idl">
+<label for="idl">IDLI</label></br>
+<input type="radio" id="idl" name="fav food" value="idl">
+<label for="idl">DOSA</label></br>
+<input type="radio" id="idl" name="fav food" value="idl">
+<label for="idl">SAMBHAR</label></br>
+</forms>
+
+Action attribute:- It defines the action after the form is submitted
+<form action="/action page.php" target="_blank">
+<label for="frame">First Name:</lable><br>
+<input type="text" id="frame" name="fname" value="Anmol"><br>
+<lable for="lname">Last Name:</label><br>
+<input type="text" id="lname" name="lname" value="Sharma"><br>
+<input type="submit" value="Submit">
+</form>
+
+Target Attribute:- Via to display the response after submitting the form
+ 
+Media tag-
+5 popular tags are
+<audio> - sound in web page
+<source>-attach multimedia file like audio, video and pic
+<embed>-to embed external application generally multimedia content like audio, video, into an html doc.
+<track>-specifies text track for media components like audio, video eg. subtitle
+<video>-video file in to web page
+
+Advantages of media tag-
+1. Plugins are not required 
+2. Speed integrated into app browser it will execute faster than 3rd party
+3. Builtin controls are provided by browser
+4. Accessibility using keyboard and mouse are built in automatically
+
+# HTML FAvicon is small image displyed next to page title in browser tag.
+it should be simpled image with high contrast 
+to insert fevicon to ur website first save iamge to route directory of webrowser 
+
+# Meta tags-
+Meta data specify about html doc. 
+it always goes inside head tag
+it specifies characteristic , page discription, keyword
+Meta data will not be displayed in webpage
+It is used by browser how to display content or reload page for search engine and other web services. 
+It is used to webdesign and to take control over the viewport
+Description-
+It define description of webpage. describe for search engine
+
+Viewport-
+It is used to set the viewport to make ur website look good on all device

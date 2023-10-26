@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script> 
+    function showMe(){
+        document.getElementById("second").innerHTML="I am Clicked"
+    }
+
+    function fun(){
+        document.getElementByTagName("P")[0].innerHTML="This is done by using javascript"
+    }
+    </script>
+    <h2 id="second">Hello </h2>
+    <button onclick="showMe()" id="second">Click Me</button>
+
+    <p style ="background-color:aquamarine">Hello Guys</p>
+    
+    <button type="button" onclick="fun()">Click me to know your status</button>
+    
+</body>
+</html>
